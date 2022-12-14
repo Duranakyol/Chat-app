@@ -31,23 +31,25 @@ function Chat({ username, room, socket }) {
           <div className="w-12 h-12 bg-white rounded-full"></div>
         </div>
         <div className="w-full h-[400px] overflow-y-auto">
-          <div className="w-2/3 h-12 p-2 bg-blue-600 text-white m-2 rounded-xl rounded-br-none">
-            <div>probeNachricht!</div>
-            <div className="w-full flex justify-end text-xs">
-              Duran Akyol - 12.12.2022
-            </div>
-          </div>
-          <div className="flex justify-end">
-            {messageList &&
-              messageList.map((msg, i) => (
-                <div className="w-2/3 h-12 p-2 bg-green-600 text-white m-2 rounded-xl rounded-br-none">
-                  <div>Antwort!</div>
+          {messageList &&
+            messageList.map((msg, i) => (
+              <div
+                className={`${
+                  username === msg.username ? "flex justify-end" : ""
+                }`}
+              >
+                <div
+                  className={`${
+                    username === msg.username ? "bg-green-600" : "bg-blue-600"
+                  } w-2/3 h-12 p-2 text-white m-2 rounded-xl rounded-br-none`}
+                >
+                  <div>{msg.message}</div>
                   <div className="w-full flex justify-end text-xs">
-                    Duran Akyol - 12.12.2022
+                    {msg.username}
                   </div>
                 </div>
-              ))}
-          </div>
+              </div>
+            ))}
         </div>
 
         <div className="absolute bottom-0 left-0 w-full">
