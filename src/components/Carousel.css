@@ -1,0 +1,16 @@
+/* CAROUSEL */
+
+.myCarousel img {
+  margin: 10px auto;
+  width: 70rem;
+  height: 40rem;
+}
+
+.myText {
+  position: absolute;
+  top: 280px;
+}
+
+.myText p {
+  font-size: 1.3rem;
+}

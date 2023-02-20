@@ -1,0 +1,55 @@
+.footerRow {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links {
+  display: flex;
+}
+
+.links img {
+  width: 120px;
+  height: 60px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.links .text {
+  margin: 45px 0 0 10px;
+  font-weight: bold;
+}
+
+.mittel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.rechts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.rechts h6 {
+  margin: 0;
+}
+
+.rechts .social-media {
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}

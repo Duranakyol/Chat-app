@@ -1,0 +1,23 @@
+.ourteam {
+  display: flex;
+  flex-direction: column;
+}
+
+.ourteam h1 {
+  text-align: center;
+  color: #bbb;
+}
+
+.myCards {
+  margin: 10px 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.small {
+  text-align: center;
+  margin: 0 auto;
+}
