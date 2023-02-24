@@ -24,7 +24,7 @@ function ChatPage() {
           />{" "}
         </div>
       ) : (
-        <div className="content">
+        <div className="content2">
           <Chat username={username} room={room} socket={socket} />
         </div>
       )}

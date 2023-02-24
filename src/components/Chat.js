@@ -27,14 +27,14 @@ function Chat({ username, room, socket }) {
   console.log("messageList", messageList);
   return (
     <div className="flex items-center justify-center h-full">
-      <div className="w-1/3 h-[500px] bg-light relative">
+      <div className="w-3/3 h-[500px] bg-light relative">
         <div className="w-full h-16 bg-gray-700 flex items-center p-3">
           <div className="w-12 h-12 rounded-full">
             <img src={Profile} alt="" />
           </div>
           <div className="ml-2 text-white">your name</div>
         </div>
-        <div className="w-full h-[400px] overflow-y-auto">
+        <div className="w-[300px] h-[240px] overflow-y-auto">
           {messageList &&
             messageList.map((msg, i) => (
               <div
