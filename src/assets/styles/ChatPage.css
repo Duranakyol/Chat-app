@@ -1,0 +1,28 @@
+.chatpage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.chatpage::before {
+  content: "";
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.chatpage .content {
+  padding-top: 13rem;
+}
+
+@media (max-width: 1024px) {
+  .chatpage .content {
+    padding-top: 9rem;
+  }
+}

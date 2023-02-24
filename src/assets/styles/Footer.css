@@ -1,9 +1,9 @@
 .footerRow {
   display: flex;
-  justify-content: space-around;
-  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-grow: 1;
   background-color: #eee;
-  margin-top: 20px;
 }
 
 a {
@@ -13,6 +13,7 @@ a {
 
 .links {
   display: flex;
+  width: 33%;
 }
 
 .links img {
@@ -29,13 +30,16 @@ a {
 
 .mittel {
   display: flex;
+  width: 33%;
   flex-direction: column;
   flex-wrap: wrap;
+  flex-grow: 1;
   margin-top: 20px;
 }
 
 .rechts {
   display: flex;
+  width: 33%;
   flex-direction: column;
   margin-top: 10px;
 }
@@ -52,4 +56,23 @@ a {
 .social-media a {
   margin-right: 10px;
   font-size: 1.4rem;
+}
+
+@media (max-width: 820px) {
+  .footerRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+  }
+  .footerRow > * {
+    width: 50%;
+  }
+}
+
+@media (max-width: 580px) {
+  .footerRow > * {
+    width: 25%;
+  }
 }

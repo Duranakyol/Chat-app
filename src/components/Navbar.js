@@ -11,9 +11,9 @@ import {
   BsFillTelephoneFill,
   BsFileTextFill,
 } from "react-icons/bs";
-import "./Navbar.css";
+import "../assets/styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Falcon from "../assets/falcon.png";
+import Falcon from "../assets/img/falcon.png";
 
 function myNavbar() {
   return (
@@ -25,8 +25,8 @@ function myNavbar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
+            className=" myNavbar me-auto my-2 my-lg-0"
+            style={{ maxHeight: "400px" }}
             navbarScroll
           >
             <Nav.Link href="/">

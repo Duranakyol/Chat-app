@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/img/profile.png";
 
 function Chat({ username, room, socket }) {
   const [message, setMessage] = useState("");
@@ -32,7 +32,7 @@ function Chat({ username, room, socket }) {
           <div className="w-12 h-12 rounded-full">
             <img src={Profile} alt="" />
           </div>
-          <div className="ml-2 text-white">Your Name</div>
+          <div className="ml-2 text-white">your name</div>
         </div>
         <div className="w-full h-[400px] overflow-y-auto">
           {messageList &&

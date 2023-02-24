@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import Card1 from "../assets/card1.jpg";
-import Card2 from "../assets/card2.jpg";
-import Card3 from "../assets/card3.jpg";
-import "./OurTeam.css";
+import Card1 from "../assets/img/card1.jpg";
+import Card2 from "../assets/img/card2.jpg";
+import Card3 from "../assets/img/card3.jpg";
+import "../assets/styles/OurTeam.css";
 
 const OurTeam = () => {
   return (

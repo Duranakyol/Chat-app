@@ -7,7 +7,7 @@ function Room({ username, room, setUsername, setRoom, setChatScreen, socket }) {
   };
   return (
     <div className="flex items-center justify-center h-full">
-      <div className="w-1/3 h-[400px] rounded-lg bg-indigo-300 flex flex-col space-y-4 p-3">
+      <div className="w-[22rem] h-[20rem] rounded-lg bg-indigo-300 flex flex-col space-y-4 p-3">
         <h1 className=" text-center my-4 font-bold text-2xl">
           WELCOME THE CHAT
         </h1>
@@ -21,7 +21,7 @@ function Room({ username, room, setUsername, setRoom, setChatScreen, socket }) {
         <input
           className="h-12 rounded-xl p-3 outline-none"
           type="text"
-          placeholder="Room"
+          placeholder="funnyRoom"
           value={room}
           onChange={(e) => setRoom(e.target.value)}
         />

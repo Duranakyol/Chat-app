@@ -1,14 +1,8 @@
 import React from "react";
-import "./Contact.css";
-import Navbar from "../components/Navbar";
+import "../assets/styles/Contact.css";
 
 const Contact = () => {
-  return (
-    <div className="contact">
-      <Navbar />
-      Contact
-    </div>
-  );
+  return <div className="contact">Wir arbeiten darüber.</div>;
 };
 
 export default Contact;

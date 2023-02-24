@@ -1,14 +1,8 @@
 import React from "react";
-import "./About.css";
-import Navbar from "../components/Navbar";
+import "../assets/styles/About.css";
 
 const About = () => {
-  return (
-    <div className="about">
-      <Navbar />
-      About
-    </div>
-  );
+  return <div className="about">Wir arbeiten darüber.</div>;
 };
 
 export default About;
