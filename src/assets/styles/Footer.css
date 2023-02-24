@@ -64,15 +64,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5rem;
   }
   .footerRow > * {
     width: 50%;
-  }
-}
-
-@media (max-width: 580px) {
-  .footerRow > * {
-    width: 25%;
   }
 }
