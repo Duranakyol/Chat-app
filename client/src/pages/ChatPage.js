@@ -4,7 +4,9 @@ import Room from "../components/Room";
 import io from "socket.io-client";
 import "../assets/styles/ChatPage.css";
 
-const socket = io.connect("https://falcon-chatapp.netlify.app");
+const socket = io.connect(
+  "https://63fc8319a24d110008576cc4--falcon-chatapp.netlify.app/chatpage"
+);
 
 function ChatPage() {
   const [username, setUsername] = useState("");
