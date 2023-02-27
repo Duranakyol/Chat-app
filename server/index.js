@@ -27,7 +27,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = "https://63fc8319a24d110008576cc4--falcon-chatapp.netlify.app";
+const PORT = "5000";
 
 server.listen(PORT, () => {
   console.log("SERVER IS RUNNING");
