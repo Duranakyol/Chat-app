@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import "../assets/styles/ChatPage.css";
 
 const socket = io.connect(
-  "https://63fc8319a24d110008576cc4--falcon-chatapp.netlify.app/chatpage"
+  "https://63fc8319a24d110008576cc4--falcon-chatapp.netlify.app"
 );
 
 function ChatPage() {
