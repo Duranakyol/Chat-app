@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://63fc8319a24d110008576cc4--falcon-chatapp.netlify.app",
+    origin: "https://falcon-chatapp.netlify.app",
     methods: ["GET", "POST"],
   },
 });
@@ -27,8 +27,6 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = "5000";
-
-server.listen(PORT, () => {
+server.listen(process.env.PORT || 5000, () => {
   console.log("SERVER IS RUNNING");
 });

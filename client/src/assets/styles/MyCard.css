@@ -1,0 +1,21 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  margin-left: 10rem;
+  background: transparent !important;
+  color: white;
+}
+
+.cardContainer img {
+  width: 15rem;
+  height: 15rem;
+}
+
+@media (max-width: 666px) {
+  .cardContainer {
+    margin: 0 auto;
+  }
+}

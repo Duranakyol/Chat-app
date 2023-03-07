@@ -21,7 +21,7 @@ function Room({ username, room, setUsername, setRoom, setChatScreen, socket }) {
         <input
           className="h-12 rounded-xl p-3 outline-none"
           type="text"
-          placeholder="funnyRoom"
+          placeholder="Room Password"
           value={room}
           onChange={(e) => setRoom(e.target.value)}
         />
