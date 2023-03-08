@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Gallery from "./components/Gallery";
 import ChatPage from "./pages/ChatPage";
 import Footer from "./components/Footer";
 import ErrorPage from "./components/ErrorPage";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/chatpage" element={<ChatPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

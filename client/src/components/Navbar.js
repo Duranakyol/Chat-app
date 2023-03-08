@@ -6,11 +6,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
   BsHouseDoorFill,
-  BsPersonCircle,
   BsFillChatTextFill,
   BsFillTelephoneFill,
   BsFileTextFill,
 } from "react-icons/bs";
+import { GrGallery } from "react-icons/gr";
 import "../assets/styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Falcon from "../assets/img/falcon.png";
@@ -79,8 +79,8 @@ function myNavbar() {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-            <Nav.Link href="/login">
-              <BsPersonCircle className="personIcon" />
+            <Nav.Link href="/gallery">
+              <GrGallery className="galleryIcon" />
             </Nav.Link>
           </Form>
         </Navbar.Collapse>

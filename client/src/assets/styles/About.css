@@ -1,4 +1,8 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
@@ -30,7 +34,16 @@
     height: 100%;
   }
   .about .paragraph {
-    width: 20rem;
+    font-size: 1.6rem;
+    max-width: 26rem;
+    max-height: 22rem;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .about .paragraph {
+    font-size: 1.2rem;
+    max-width: 19rem;
   }
 }
