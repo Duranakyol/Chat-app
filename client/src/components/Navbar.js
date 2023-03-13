@@ -10,7 +10,7 @@ import {
   BsFillTelephoneFill,
   BsFileTextFill,
 } from "react-icons/bs";
-import { GrGallery } from "react-icons/gr";
+import { FcGallery } from "react-icons/fc";
 import "../assets/styles/Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Falcon from "../assets/img/falcon.png";
@@ -80,7 +80,7 @@ function myNavbar() {
             />
             <Button variant="outline-success">Search</Button>
             <Nav.Link href="/gallery">
-              <GrGallery className="galleryIcon" />
+              <FcGallery className="galleryIcon" />
             </Nav.Link>
           </Form>
         </Navbar.Collapse>

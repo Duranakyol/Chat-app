@@ -12,13 +12,13 @@
   width: 100%;
 }
 
-img {
+.photo img {
   width: 30%;
   height: 20rem;
   margin: 10px;
 }
 
-img:hover {
+.photo img:hover {
   align-self: center;
   width: 28%;
   height: 18rem;

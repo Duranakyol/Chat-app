@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://falcon-chatapp.netlify.app",
+    origin: "https://falcon-server.herokuapp.com/",
     methods: ["GET", "POST"],
   },
 });
